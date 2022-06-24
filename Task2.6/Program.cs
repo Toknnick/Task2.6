@@ -20,15 +20,9 @@ namespace Task2._6
             {
                 Console.WriteLine("Введите 'продолжить' ");
                 waitingInputWord = Console.ReadLine().ToLower().Trim();
-
-                if(waitingInputWord == stopWord)
-                {
-                    break;
-                }
-
                 Console.WriteLine("Выберите вариант:");
                 state = int.Parse(Console.ReadLine());
-
+                
                 switch (state)
                 {
                     case 1:
